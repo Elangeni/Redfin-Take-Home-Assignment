@@ -12,7 +12,21 @@ Write a command line program that prints out a list of food trucks that are open
 
 #How to run this program
 
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+1. Make sure you have working version of node installed
+<br/>
+- use node -v to check the version<br/>
+- If you have node not installed please install it.<br/>
+- Please upgrade your node and npm as well to the latest version from their websites<br/>
+- you can also try this command as well to upgrade your node npm-windows-upgrade or npm i -g npm. Please visit their website for more information<br/>
+<br/>
+2. The API usage is quantified and thus you will need to get the token for heavy usage from API website here
+<br/>
+3. Make sure you have sudo rights on your machine
+<br/>
+4. Go to the project directory and run npm link
+<br/>
+5. Use the command show-open-food-trucks from anywhere in the terminal, you will find result on the terminal.
+<br/>
+6. he displayed result has pagination involved and thus you will see 10 records in alphabetical order. While there are still records available. The program will ask if you want to see more. Press y for yes and n for no.
+<br/>
+7. If you want to no longer use this command in your linux terminal, go to project directory and use npm unlink
